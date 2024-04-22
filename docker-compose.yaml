@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  node-docker-pipeline:
+    build:
+      context: .
+    container_name: node-docker-pipeline
+    ports:
+      - 3001:3333
